@@ -17,7 +17,8 @@ function App() {
   const [in3, setIn3] = useState('')
   const [in4, setIn4] = useState('')
   return (
-    <div className="App">
+    <div className="App stylesheet">
+    <span>Card Number*</span>
       <input type="text" ref={inputRef1} maxLength="4" pattern="\d{4}" autoFocus
         value={in1}
         onChange={(evt)=>{
